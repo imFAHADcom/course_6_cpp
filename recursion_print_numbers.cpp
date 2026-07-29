@@ -5,12 +5,17 @@ using namespace std;
 
 void printNumbersUpToDown(int n, int m){
 
-
 	if(n <= m){
 
 		cout << n << "\n";
 		printNumbersUpToDown(n + 1, m);
 	}
+
+
+
+// You can use Ternary Operator: Short Hand IF
+//	(n <= m) ? (cout << n << "\n", printNumbersUpToDown(n + 1, m)) : void();
+
 }
 
 
@@ -22,6 +27,10 @@ void printNumbersDownToUp(int m, int n){
 		printNumbersDownToUp(m - 1, n);
 	}
 
+
+// You can use Ternary Operator: Short Hand IF
+
+//	(m >= n) ? (cout << m << "\n", printNumbersDownToUp(m - 1, n)) : void();
 }
 
 int main(){
