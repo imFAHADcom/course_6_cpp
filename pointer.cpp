@@ -8,7 +8,7 @@ int main(){
 	cout << "number variable value          = " << number << "\n";
 	cout << "number variable momery address = " << &number << "\n";
 
-	int *pNumber = &number;
+	int* pNumber = &number;
 	cout << "Pointer pa value               = " << pNumber << "\n";
 	cout << "Pointer pa dereferenced value  = " << *pNumber << endl;
 
@@ -17,9 +17,9 @@ int main(){
 	cout << "\nname variable value          = " << name << "\n";
 	cout << "name momery address            = " << &name << "\n";
 
-	string *pName = &name;
-	cout << "Pointer pn value               = " << pName << endl;
-	cout << "Pointer pn dereferenced value  = " << *pName << endl;
+	string* pName = &name;
+	cout << "Pointer pName value               = " << pName << endl;
+	cout << "Pointer pName dereferenced value  = " << *pName << endl;
 	
 
 	return 0;
